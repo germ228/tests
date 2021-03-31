@@ -7,7 +7,7 @@ pipeline{
     stage("build") {
       
       steps {
-      sh 'git clone 
+      sh 'git clone https://github.com/germ228/tests.git'
       echo 'building the application...'
       }      
     } 
