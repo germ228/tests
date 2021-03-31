@@ -7,6 +7,7 @@ pipeline{
     stage("build") {
       
       steps {
+      sh 'git clone 
       echo 'building the application...'
       }      
     } 
